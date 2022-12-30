@@ -19,6 +19,7 @@ WHERE regist_date <= '2009-09-27';
 
 SELECT product_name, sale_price, purchase_price
 FROM Product
+<<<<<<< HEAD
 WHERE sale_price - purchase_price >= 500;
 
 CREATE TABLE Chars
@@ -61,3 +62,6 @@ WHERE purchase_price IS NULL;
 SELECT product_name, purchase_price
 FROM Product
 WHERE purchase_price IS NOT NULL;
+=======
+WHERE sale_price - purchase_price >= 500;
+>>>>>>> 426d849a4d20382263a891058ee7dd0ca32dbe17
