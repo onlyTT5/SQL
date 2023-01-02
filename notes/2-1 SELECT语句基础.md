@@ -43,7 +43,7 @@ FROM Product;
 
 ## 从结果中查询重复行
 
-语法2-4 SELECT语句中的DISTINCT语句
+**语法2-4 SELECT语句中的DISTINCT语句**
 
 ```SQL
 SELECT DISTINCT <列名>
